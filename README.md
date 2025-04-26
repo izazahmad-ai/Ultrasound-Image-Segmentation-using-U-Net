@@ -12,6 +12,14 @@ This project applies a U-Net convolutional neural network to perform **biomedica
 
 ---
 
+## 🔗 Model Weights
+
+You can download the pre-trained model weights from Google Drive:
+
+[📥 Download model.weights.h5](https://drive.google.com/uc?id=1kwNT9dJ48L2VZn19GeqD5i4it2k06d8Q&export=download)
+
+After downloading, place it in the root project directory before running `Testing_Unet.ipynb`.
+
 ## 📈 Training Progress
 
 Training was conducted over **100 epochs**, with the following trends:

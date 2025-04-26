@@ -85,10 +85,17 @@ The testing notebook covers:
 5. Computing Evaluation Metrics (IoU, Precision, Recall, F1 Score).
 
 ---
+## 🖼️ Prediction Results on Test Set
 
-## 🚀 How to Run
+The model was tested on unseen ultrasound images. Below you can see:
 
-1. Clone this repository.
-2. Install requirements:
-   ```bash
-   pip install -r requirements.txt
+- **Left**: Input Image
+- **Middle**: Ground Truth Mask
+- **Right**: Model's Predicted Mask
+
+![Prediction Results](./prediction_results.png)
+
+🔍 The model effectively segments tumors and lesions, closely matching the ground truth annotations, even across different tumor shapes and sizes.
+
+---
+
